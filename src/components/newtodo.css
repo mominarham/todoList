@@ -1,0 +1,68 @@
+body{
+    background-color: #56d1b6;
+}
+
+.maindiv{
+    width: 500px;
+    min-height: 500px;
+    background: #fc900d;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+.inputfield{
+    width: 300px;
+    margin-left: 40px;
+    margin-top: 40px;
+    /* padding-right: 40px; */
+    border: 2px solid black;
+    text-align: center;
+    font-weight: 800;
+
+}
+input::placeholder{
+    color: darkblue;
+}
+
+.maindiv input{
+    border-radius: 30px;
+    padding-right: 40px;
+    margin-right: 40px;
+    outline: none;
+    color: darkblue;
+
+}
+
+.task{
+    padding-bottom: 10px;
+}
+
+/* .addbutton{ */
+    /* margin-left: 40px; */
+    /* background: red;
+padding: 10px;
+margin-top: 20px;
+border-radius: 50%;
+} */
+.btna{
+    background: #21c90e;
+    color: white;
+    font-weight: 800;
+    border: 2px solid black;
+    border-radius: 30px;
+    
+}
+
+.btna:focus{
+    outline: none;
+}
+
+.heading{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 1000;
+    color: darkblue;
+}
